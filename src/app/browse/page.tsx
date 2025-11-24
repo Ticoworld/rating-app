@@ -41,7 +41,7 @@ export default function BrowsePage() {
             No More Profiles
           </h2>
           <p className="text-white/60">
-            You've rated everyone! Check back later for more.
+            You&apos;ve rated everyone! Check back later for more.
           </p>
         </div>
       </div>
@@ -58,7 +58,7 @@ export default function BrowsePage() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -100 }}
             transition={{ duration: 0.3 }}
-            className="relative w-full h-[80vh]"
+            className="relative w-full h-[90vh]"
           >
             {/* Background Image */}
             <Image

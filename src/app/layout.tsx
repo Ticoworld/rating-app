@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="max-w-[480px] mx-auto min-h-screen bg-black border-x border-white/10 shadow-2xl shadow-black">
-          <div className="pb-24">
+          <div className="">
             {children}
           </div>
           <BottomNav />
